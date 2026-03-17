@@ -1,43 +1,43 @@
-# 🌸 Iris Classification & Machine Learning Pipeline
+# Iris Classification using Machine Learning
 
-This project builds a complete machine learning pipeline to classify iris flower species using the Iris dataset.
+This project focuses on classifying iris flower species using basic machine learning models.  
+It was developed as part of my learning process in data science and machine learning.
 
-## 🚀 Overview
+## About
 
-The project explores the dataset, applies preprocessing techniques, and compares multiple machine learning models to determine the best-performing approach.
+The Iris dataset is a well-known dataset that contains measurements of iris flowers from three different species: setosa, versicolor, and virginica.
 
-## 🔍 Workflow
+In this project, I explored the dataset, applied preprocessing steps, and trained multiple models to compare their performance.
 
-- Data exploration and analysis  
-- Data preprocessing (train-test split, scaling)  
-- Model training (Logistic Regression, KNN, SVM, Random Forest)  
-- Model comparison using cross-validation  
-- Hyperparameter tuning with GridSearchCV  
-- Model evaluation (confusion matrix, classification report)  
-- PCA visualization  
+## What I did
 
-## 📊 Key Results
+- Loaded and explored the dataset  
+- Converted data into a pandas DataFrame  
+- Split the data into training and test sets  
+- Applied feature scaling  
+- Trained different models (Logistic Regression, KNN, SVM, Random Forest)  
+- Compared models using cross-validation  
+- Tuned hyperparameters using GridSearchCV  
+- Evaluated results with accuracy scores and confusion matrix  
+- Visualized the data using PCA  
 
-- Best Model: Logistic Regression  
-- Cross-validation Accuracy: ~0.96  
-- Test Accuracy: 1.00  
-- Dataset is balanced  
-- Clear class separation (especially setosa)  
+## Results
 
-## 🛠️ Technologies
+Logistic Regression performed the best among the tested models.  
+The dataset is relatively simple and well-separated, which leads to high accuracy.
+
+## Tools & Libraries
 
 - Python  
-- Scikit-learn  
 - Pandas  
-- Matplotlib / Seaborn  
+- Scikit-learn  
+- Matplotlib  
 
-## 📌 Purpose
+## Notes
 
-This project was developed to practice:
-- building end-to-end ML pipelines  
-- model comparison and evaluation  
-- data preprocessing techniques  
+This project is mainly for practice and learning purposes.  
+I focused on understanding the workflow of a machine learning pipeline rather than building a production-level system.
 
-## 👩‍💻 Author
+## Author
 
 Zeren Karabulut
